@@ -36,9 +36,8 @@ a {
     width: 150px;
   }
   .navigation-bar {
-    justify-content: center !important;
-    padding: 0.2rem !important;
-    gap: 7rem !important;
+    justify-content: space-between;
+    padding: 1.5rem 1.7rem;
     height: 82px;
     /* border: 2px solid blue; */
   }
@@ -279,17 +278,15 @@ a {
     display: none;
   }
   .navigation-bar {
-    padding: 1.2rem 3rem;
-    justify-content: space-around;
-    gap: 12rem;
+    padding: 1.2rem 5rem;
+    justify-content: space-between;
   }
   .nav ul {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 3rem;
+    justify-content: space-between;
+    gap: 2rem;
   }
-
   .nav-btn {
     background-color: var(--button);
     padding: 0.8rem 0.9rem;
